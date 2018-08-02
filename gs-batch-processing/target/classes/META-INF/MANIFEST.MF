@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: gs-batch-processing
+Implementation-Version: 0.1.0
+Built-By: vishwanath_bhat
+Implementation-Vendor-Id: org.springframework
+Build-Jdk: 1.8.0_131
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/gs-batch-processing
+Created-By: Maven Integration for Eclipse
+
