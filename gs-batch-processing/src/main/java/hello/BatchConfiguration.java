@@ -41,6 +41,8 @@ public class BatchConfiguration {
     public StepBuilderFactory stepBuilderFactory;
     
     private static final Logger LOGGER = LoggerFactory.getLogger(PersonItemProcessor.class);
+    private static final Logger LOGGER1 = LoggerFactory.getLogger(PersonItemProcessor.class);
+
 
 
     // tag::readerwriterprocessor[]

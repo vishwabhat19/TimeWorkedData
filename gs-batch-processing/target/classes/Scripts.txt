@@ -1,0 +1,20 @@
+CREATE TABLE `TIME_WORKED` (
+  `RESTRICTED` varchar(45),
+  `USER` varchar(500) DEFAULT '',
+  `TRACKING_CONFIGURATION_ITEM` varchar(500) DEFAULT '',
+  `ACTIVITY` varchar(500) NOT NULL DEFAULT '',
+  `TIME_WORKED` varchar(500),
+  `UPDATED` datetime NOT NULL,
+  `NUMBER` varchar(500) NOT NULL DEFAULT '',
+  `TITLE` varchar(500) DEFAULT '',
+  `SUBCAUSE` varchar(500),
+  `CALLER` varchar(500) DEFAULT '',
+  `RESOLVED_BY` varchar(500),
+  `STATE` varchar(500),
+  `CONFIGURATION_ITEM` varchar(500),
+  `APPLE_KEYWORDS` varchar(500),
+  `CREATED` datetime NOT NULL,
+  `ASSIGNMENT_GROUP` varchar(500),
+  `REASSIGNMENT_COUNT` varchar(500),
+  PRIMARY KEY (`NUMBER`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
